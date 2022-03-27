@@ -42,13 +42,13 @@ header p
 .toph
 {
     font-size: 53px;
-    margin: 0 0 0 -10px;
+    margin: -10px 0 -20px 0px;
 }
 
 .bottomh
 {
     font-size: 70px;
-    margin: 0 0 0 -5px;
+    margin: 0 0 -8px -5px;
 }
 
 header img
@@ -72,7 +72,7 @@ body
 
 .box
 {
-    top: 440px;
+    top: 400px;
     position: fixed;
     width: 200px;
     height: 200px;
