@@ -1,5 +1,4 @@
 
-@import url('http://fonts.cdnfonts.com/css/steelfish');
 *
 {
     margin: 0;
@@ -7,16 +6,22 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: steelfishimport;
+    src: url(img/steelfish.otf);
+}
+
 header
 {
+    font-family: steelfishimport;
     position: fixed;
     color: white;
     top: 10px;
-    font-family: 'Steelfish', sans-serif;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     display: block;
+    
 }
 
 header span
