@@ -49,8 +49,8 @@ body
 
 .box
 {
-    top: 78px;
-    position: relative;
+    top: 442px;
+    position: fixed;
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
