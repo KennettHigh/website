@@ -1,5 +1,5 @@
 
-
+@import url('http://fonts.cdnfonts.com/css/steelfish');
 *
 {
     margin: 0;
@@ -10,27 +10,45 @@
 header
 {
     position: fixed;
-    color: #FD6204;
+    color: white;
     top: 10px;
-    font-family: 'steelfish-extrabold', sans-serif;
+    font-family: 'Steelfish', sans-serif;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     display: block;
 }
 
+header span
+{
+    color: #FD6204;
+}
+
 header p
 {
-    font-size: 35px;
+    position: relative;
+    z-index: 20;
     margin: auto;
-    width: 90%;
+    width: 100%;
     padding: 2px;
     text-align: center;
 }
 
+.toph
+{
+    font-size: 53px;
+    margin: 0 0 0 -10px;
+}
+
+.bottomh
+{
+    font-size: 70px;
+    margin: 0 0 0 -5px;
+}
+
 header img
 {
-    width: 325px;
+    width: 270px;
     justify-content: center;
     display: block;
     margin-left: auto;
@@ -49,7 +67,7 @@ body
 
 .box
 {
-    top: 442px;
+    top: 440px;
     position: fixed;
     width: 200px;
     height: 200px;
@@ -79,7 +97,7 @@ body
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(241px);
 }
 
 .box span img
