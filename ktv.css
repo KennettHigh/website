@@ -114,3 +114,23 @@ body
     height: 100%;
     object-fit: cover;
 }
+
+footer
+{
+    font-family: steelfishimport;
+    position: fixed;
+    top: 680px;
+    color: black;
+    text-align: center;
+}
+
+footer a
+{
+    color: black;
+    
+}
+
+footer a:hover
+{
+    color: #FD6204;
+}
