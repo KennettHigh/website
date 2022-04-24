@@ -14,6 +14,7 @@ html {
   max-width: 800px;
   font-family: greedboldimport;
 
+  overflow-x: hidden;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
@@ -195,7 +196,7 @@ html a{
 
 .realmarquee2{
   top: -2;
-  width: 1000px;
+  width: 1300px;
   color: white;
   position: relative;
   display: block;
@@ -226,7 +227,7 @@ html a{
 
 .realmarquee0{
   top: -5.0px;
-  width: 950px;
+  width: 1000px;
   color: white;
   position: relative;
   display: block;
