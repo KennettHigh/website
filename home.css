@@ -1,265 +1,219 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-@font-face {
-  font-family: greedboldimport;
-  src: url(home/greedbold.otf);
-}
-
 html {
-  background-color: rgb(255, 255, 255);
-  overflow-x: hidden;
-  width: 100%;
-  padding: 0;
-  margin: auto;
-  max-width: 800px;
-  font-family: greedboldimport;
+    background-color: #2926CC;
+    padding: 0;
+    margin: 0;
+    color: #D3D3D3;
+    font-family: 'Roboto', sans-serif;
 }
 
-html a{
-  text-decoration: none;
+a {
+  color: rgb(219, 219, 219);
 }
 
-.sorry{
-  color: red;
-  position:absolute;
-  top: 150px;
-  font-size: 0px;
+.about a{
+  color: rgb(219, 219, 219);
 }
-
-.section1 a{
-  color: #2926CC;
-  text-decoration: underline;
-}
-
-.section1 a:hover{
-  color: black;
-}
-
-.section1{
-  top: 10px;
-  display: grid;
-  grid-auto-flow: column;
-  width: 800px;
-}
-
-.title {
-  min-width: 50vw;
-  max-width: 400px;
-
-  width: 60%;
-  font-size: 12px;
-  text-align: left;
-  padding: 0px 0px 30px 20px;
-
-}
-
-.title span {
-  color: #2926CC;
-}
-
-.ifone
-{
-  padding-top: 10px;
-  margin-right: 100vw;
-  order: 2;
-  max-width: 400px;
-}
-
-.ifone img {
-  max-width: 170px;
-}
-
-
-.section2{
-  position: relative;
-  top: 50px;
-  font-size: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 800px;
-}
-
-
-
-.title2{
-  position: relative;
-  top: 90;
-  font-size: 12px;
-  padding-left: 20px;
-  max-width: 800px;
-}
-
-.section3 {
-  font-size: 15px;
-  width: 100%;
-  position: relative;
-  top: 105px;
-  display: grid;
-  grid-auto-flow: column;
-  max-width: 800px;
-}
-
-.buttons{
-  width: 20vw;
-
-  color: white;
-  border-radius: 15px;
-  height: 60px;
-  margin: auto;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 60px;
-  background-color: #2926CC;
-  max-width: 180px;
-  max-height: 100px;
-}
-
-.section3 a {
-  color: white;
-}
-
-.section3 a:hover{
-  text-decoration: none;
-  color: rgb(219, 218, 218);
-  background-color: #201dcc;
-}
-
-.section4{
-  position: relative;
-  top: 160px;
-  font-size: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 800px;
-}
-
-.secton4 span{
-  text-decoration: underline;
-}
-
-.section4 a{
-  color: #2926CC;
-}
-
-.section4 a:hover{
-  color: black;
-}
-
-.section4 h5{
-  font-size: 15px;
-}
-
-.marquee1{
-  overflow: hidden;
-  background-color: #2926CC;
-  font-size: 13px;
-  margin-top: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-  transform: rotate(2deg);
-  position: absolute;
-  left: -30;
-  max-width: 850px;
-  width: 100vw;
-}
-
-.marquee2{
-  overflow: hidden;
-  background-color: #2926CC;
-  font-size: 13px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-  transform: rotate(-2deg);
-  position: absolute;
-  left: -30;
-  max-width: 850px;
-  width: 100vw;
-}
-
-
-footer {
-  
-  width: 100%;
-  padding: 0px;
-  background-color: #2926CC;
-  color: white;
-  padding: 10px 10px 10px 10px;
-  margin: 10px 10px -10px -10px;
-  max-width: 800px;
-}
-
-footer a{
-  color: white;
-  text-decoration: underline;
-}
-
-footer a:hover{
-  color: rgb(173, 173, 173);
-}
-
-footer h5{
-  font-size: 15px;
-}
-
-
-
-
-
 
 header {
-  background-color: #3532D8;
-  width: 100%;
-  left: 0px;
-  top: 0px;
-  margin: 10 10 10 10;
+    background-color: #3532D8;
+    width: 100%;
+    left: 0px;
+    top: 0px;
 }
 
 header a{
-text-decoration: none;
-color: white;
+  text-decoration: none;
 }
 
 .catagories {
-margin: auto;
-width: 90%;
-text-align: center;
-word-spacing: 10px;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  word-spacing: 10px;
+}
+
+body{
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  top: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
 }
 
 .logo img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 20px;
 }
 
 
 .heading {
-margin: auto auto auto auto;
-width: 75%;
-padding: 0px;
-text-align: center;
+  margin: auto auto auto auto;
+  width: 75%;
+  padding: 0px;
+  text-align: center;
 }
 
-@media (min-width: 770px){
+.list img{
+  max-width: 220px;
+}
 
-.sorry{
-  color: red;
-  position:absolute;
-  top: 150px;
-  font-size: 15px;
+.list {
+  flex-direction: row;
+  text-align: left;
+  display: flex;
+  margin: auto auto auto auto;
+  width: 95%;
+  
+  gap: 10vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  max-width: 900px;
+  background-color: #3532D8;
+  width: 80vw;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10vw;
+  margin-left: 8vw;
+  
+}
+
+.example {
+  max-width: 900px;
+  width: 80vw;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10vw;
+  margin-left: 8vw;
+    
+}
+
+.color {
+  background-color: #3532D8;
+}
+
+footer {
+  max-width: 1000px;
+  width: 85vw;
+  padding: 0px;
+  margin: auto auto auto auto;
+  color: #6665d3;
+}
+
+footer hr{
+  height: 1px;
+  background-color: #3532D8;
+  border: none;
+}
+
+.fLink{
+  color: #6665d3;
 }
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
